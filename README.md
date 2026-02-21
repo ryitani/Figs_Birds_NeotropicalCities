@@ -19,7 +19,10 @@ Fieldwork was conducted in urban green areas in Veracruz, Mexico. A total of 30 
 - 15 native trees (*Ficus tuerckheimii*)
 - 15 exotic trees (*Ficus elastica*)
 
-Bird surveys were conducted across multiple fruiting phenological phases.
+Bird surveys were conducted across multiple fruiting phenological phases: 
+- Immature phase
+- Mature phase
+- Few figs phase
 
 ## Methods
 
@@ -33,10 +36,31 @@ Bird community responses were evaluated using generalized linear mixed models (G
 ### Fixed effects
 
 - Fruiting phenological phase
-- Green cover within 50 m buffer
+- Landscape variables
 - Foliage density
 - Migratory season
 - Fruit availability
+
+## Landscape variables
+
+Landscape composition was quantified using circular buffers centered on each focal tree at four spatial scales:
+
+- 50 m
+- 100 m
+- 200 m
+- 500 m
+
+Within each buffer, landscape elements were manually digitized using high-resolution satellite imagery in Google Earth Pro.
+
+Landscape elements were classified into three categories:
+
+- Green elements: trees and shrubs
+- Gray elements: buildings, roads, and infrastructure
+- Blue elements: rivers, ponds, and other water bodies
+
+The proportion of each element was calculated as percentage of buffer area.
+
+Final models included the spatial scale that best represented ecological responses based on model performance and collinearity diagnostics.
 
 ### Random effect
 
@@ -62,16 +86,40 @@ Post-hoc comparisons among fruiting phases were conducted using estimated margin
 - Tree origin (native vs. exotic) did not significantly influence bird abundance or species richness.
 - Both native and exotic *Ficus* trees provide important foraging resources for urban bird communities.
 
-## Requirements
-To replicate our study, please ensure you have the following R packages installed:
-- `lme4`
-- `emmeans`
-- `performance`
-- `DHARMa`
-- `MuMIn`
-- `ggplot2`
+## Repository structure
 
-### Installation code:
-```R
-install.packages(c('lme4', 'emmeans', 'performance', 'DHARMa', 'MuMIn', 'ggplot2'))
-```
+data/
+├── Base_Abu_Tuerckheimii2025.csv
+└── Base_Abu_Elastica2025.csv
+
+scripts/
+├── FicusElastica_BirdAbundance.R
+├── FicusElastica_BirdRichness.R
+├── FicusTuerckheimii_BirdAbundance.R
+└── FicusTuerckheimii_BirdRichness.R
+
+## Requirements
+
+Analysis conducted in R.
+
+##Required packages:
+
+lme4  
+glmmTMB  
+emmeans  
+performance  
+DHARMa  
+MuMIn  
+ggplot2  
+
+##Install using:
+
+install.packages(c(
+  "lme4",
+  "glmmTMB",
+  "emmeans",
+  "performance",
+  "DHARMa",
+  "MuMIn",
+  "ggplot2"
+))
