@@ -1,9 +1,28 @@
+# Exotic and native fruiting Ficus trees sustain avifauna in neotropical cities
+
+## Overview
+This project investigates the role of both exotic and native Ficus trees in sustaining bird populations in neotropical cities. The abundance and species richness of birds are crucial factors that contribute to ecological health and urban biodiversity.
+
+## Objectives
+- To evaluate bird abundance and species richness associated with Ficus trees in urban environments.
+- To compare the impact of exotic versus native Ficus species on avifauna.
+
+## Methods
+We employed a comprehensive field survey and observational study design to assess bird populations in relation to various Ficus species. Our methodology includes:
+- Bird count surveys
+- Species identification
+- Habitat assessments
+
 ## Key Points
+- Understanding the relationship between Ficus trees and avian communities aids in urban ecological planning.
+- Promoting both exotic and native Ficus species can enhance bird abundance and species richness in city landscapes.
 
-Ficus trees are important sources of food and shelter for birds in urban areas, but little is known about how some aspects, such as origin (native vs exotic), landscape context or fig fruiting phases may influence patterns of bird diversity. We evaluated the effect of landscape elements on individual abundance and richness of bird species in 30 urban exotic and native Ficus trees (exotic: F. elastica, n=15; native: F. tuerckheimii, n=15) during each fruiting phase (immature, mature and few figs) in three urban areas in the state of Veracruz, Mexico. Over the course of one year, we recorded 59 bird species, including residents and migratory birds. We detected no relationship between bird abundance or richness and vegetation cover surrounding either Ficus species. However, bird responses differ between native and exotic Ficus trees. In the exotic species, bird abundance (but not species richness) varied among fruiting phases, being higher during the mature fruiting phase compared to the immature and the few figs' phases. In contrast, both bird abundance and species richness in the native Ficus were higher during the mature phase compared to the immature phase, pointing to different ecological functions between the two Ficus species. Our results highlight the importance of conserving exotic and native Ficus trees in Neotropical cities to mitigate the impacts of urban expansion and support biodiversity in increasingly modified landscapes.
+## Requirements
+To reproduce the findings of this study, the following R packages are required:
+- `dplyr`
+- `ggplot2`
+- `tidyr`
+- `lubridate`
+- `MASS`
 
----
-
-## Conclusion
-
-Ficus trees are important sources of food and shelter for birds in urban areas, but little is known about how some aspects, such as origin (native vs exotic), landscape context or fig fruiting phases may influence patterns of bird diversity. We evaluated the effect of landscape elements on individual abundance and richness of bird species in 30 urban exotic and native Ficus trees (exotic: F. elastica, n=15; native: F. tuerckheimii, n=15) during each fruiting phase (immature, mature and few figs) in three urban areas in the state of Veracruz, Mexico. Over the course of one year, we recorded 59 bird species, including residents and migratory birds. We detected no relationship between bird abundance or richness and vegetation cover surrounding either Ficus species. However, bird responses differ between native and exotic Ficus trees. In the exotic species, bird abundance (but not species richness) varied among fruiting phases, being higher during the mature fruiting phase compared to the immature and the few figs' phases. In contrast, both bird abundance and species richness in the native Ficus were higher during the mature phase compared to the immature phase, pointing to different ecological functions between the two Ficus species. Our results highlight the importance of conserving exotic and native Ficus trees in Neotropical cities to mitigate the impacts of urban expansion and support biodiversity in increasingly modified landscapes.
+Feel free to reach out with any questions or for further collaboration.
