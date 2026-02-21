@@ -1,7 +1,7 @@
 # Exotic and native fruiting Ficus trees sustain avifauna in neotropical cities
 
 ## Overview
-This project investigates the role of both exotic and native Ficus trees in sustaining bird populations in neotropical cities. The abundance and species richness of birds are crucial factors that contribute to ecological health and urban biodiversity.
+This project investigates the role of both exotic and native Ficus trees in sustaining bird populations in neotropical cities. 
 
 ## Objectives
 - To evaluate bird abundance and species richness associated with Ficus trees in urban environments.
@@ -10,8 +10,6 @@ This project investigates the role of both exotic and native Ficus trees in sust
 ## Methods
 We employed a comprehensive field survey and observational study design to assess bird populations in relation to various Ficus species. Our methodology includes:
 - Bird count surveys
-- Species identification
-- Habitat assessments
 
 ## Key Points
 - Understanding the relationship between Ficus trees and avian communities aids in urban ecological planning.
